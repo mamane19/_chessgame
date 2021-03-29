@@ -1,0 +1,26 @@
+name: chessgame
+description: A new Flutter ChessGame project.
+author: Mamane19
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_stateless_chessboard: ^0.0.2
+  chess: ^0.6.5
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
